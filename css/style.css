@@ -1,0 +1,280 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin: 0;
+    font-family: Tahoma;
+}
+/************
+    top section
+*************/
+.top
+{
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(../imgs/back.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #FFF;
+    font-size: 15px;
+}
+
+.details
+{
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.detalis_in__month
+{
+    display: inline;
+}
+
+.allbudgety
+{
+    display: block;
+    margin-top: 15px;
+    font-size: 50px;
+}
+
+.container
+{
+    background: red;
+    margin: auto;
+    text-align: left;
+    font-size: 15px;
+    color: #000;
+    margin-top: 16px;
+    padding: 10px;
+    width: 300px;
+}
+
+.income_container
+{
+    background-color: #28B9B5;
+}
+
+.expenses_container
+{
+    background-color: #FF5049;
+}
+
+.income
+{
+    float: right;
+    margin-right: 46px;
+    color: #fff;
+}
+
+.present_from_budgety
+{
+    float: right;
+    margin-right: 5px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 11px;
+}
+.expenses
+{
+    float: right;
+    margin-right: 15px;
+    color: #fff;
+}
+
+/**********
+    bottom
+**********/
+.bottom
+{
+    width: 100%;
+    height: 350px;
+}
+
+header
+{
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    padding: 14px;
+    border-bottom: 1px solid #e7e7e7;
+    background-color: #f7f7f7;
+}
+
+.add_type
+{
+    width: 60px;
+    height: 40px;
+    padding: 5px;
+    color: inherit;
+    margin-right: 10px;
+    transition: border 0.5s;
+}
+
+header input
+{
+    border: 1px solid #e7e7e7;
+    background-color: #fff;
+    color: inherit;
+    width: 300px;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 12px 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    transition: border 0.5s;
+}
+
+header input:focus,
+header select:focus
+{
+    outline: none;
+    border: 1px solid #28B9B5;
+}
+
+header select{
+    border-radius: 5px;
+}
+
+.value
+{
+    width: 100px;
+}
+
+.containers
+{
+    display: block;
+}
+
+.containers .income_section,
+.containers .expenses_section
+{
+    display: block;
+    padding: 50px;
+    
+}
+.containers .income_section
+{
+    float: left;
+    width: 50%;
+    padding-left: 200px;
+}
+
+.containers .expenses_section
+{
+    float: right;
+    text-align: left;
+    width: 50%;
+    
+}
+
+.income_section
+{
+    color: #28B9B5;
+}
+
+.expenses_section
+{
+    color: #FF5049;
+}
+
+.values
+{
+    display: block;
+    width: 410px;
+    height: 40px;
+    padding: 5px;
+    border-bottom: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    color: #000;
+    text-align: left;
+    direction: rtl;
+}
+
+.values:hover .salary
+{
+    transform: translate(-5px);
+}
+.values:hover .pse
+{
+    transform: translate(-5px);
+}
+.salary
+{
+    float: right;
+    transition: transform 0.5s;
+    background: #FFF;
+    transform: translate(20px);
+    direction: ltr;
+}
+
+.forin
+{
+    color: #28B9B5;
+    margin-right: 5px;
+}
+
+.forex
+{
+    color: #FF5049;
+}
+
+.pse
+{
+    float: right;
+    color: #FF5049;
+    margin-left: 5px;
+    background: #FFDAD9;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 11px;
+    transform: translate(20px);
+    transition: transform 0.5s;
+}
+
+
+.getdata
+{
+    background-color: transparent;
+    border: 0;
+    color: #28B9B5;
+    outline: none;
+}
+
+.getdata:hover
+{
+    cursor: pointer;
+}
+
+
+.remove
+{
+    background-color: transparent;
+    border: 0;
+    float: right;
+    color: red;
+    margin-right: 8px;
+    outline: none;
+}
+
+.remove:hover
+{
+    cursor: pointer;
+}
+
+
+.changecolor:focus
+{
+    outline: none;
+    border: 1px solid #FF5049;
+}
+.red{
+    color: #FF5049;
+}
+
+
+
+

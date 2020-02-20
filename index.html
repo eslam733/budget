@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Budgety</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class=top>
+            <div class=details>Available Budget in</div>
+            <div class=detalis_in__month>%month%</div>
+            <span id=allbudgety class=allbudgety>+ 3,324.32</span>
+            <div class="income_container container">INCOME <span id=income class=income>+ 1,433.2</span></div>
+            <div class="expenses_container container">EXPENSES <span id=present_from_budgety class=present_from_budgety>25%</span><span class=expenses id=expenses>- 535,32</span></div>
+        </div>
+        
+        <div class=bottom>
+            <header>
+                <select id=add_type class=add_type>
+                    <option value="inc">+</option>
+                    <option value="exp">-</option>
+                </select>
+                <input id=add_description class="description" type="text" placeholder="add description">
+                <input id=add_number class="value" type="number" placeholder="value">
+                <button id=getdata class=getdata>OK</button>
+            </header>
+            <div class=containers>
+                <div id=income_section class=income_section>INCOME
+                    <!-- <div class="values"><span class=name>ssss</span><span class="remove">x</span><span class="salary forin">+ 234.00</span></div> -->
+                </div>
+                <div id=expenses_section class=expenses_section>EXPENSES
+                    <!-- <div class="values"><span class=name>ssss</span><span class="remove">x</span><span class="pse">23%</span><span class="salary forex">+ 234.00</span></div> -->
+                </div>
+            </div>
+        </div>
+        <script src="js/js.js"></script>
+    </body>
+</html>
